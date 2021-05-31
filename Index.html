@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Shopping List</title>
+        <link rel="stylesheet"
+        href="https://bootswatch.com/4/solar/bootstrap.min.css">
+        <!-- Link Google Font -->
+        <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+        <!-- External CSS link-->
+        <link rel="stylesheet" href="shopping.css">
+        <!--External JS link-->
+    </head>
+
+    <body>
+        <div class="container mt-4">
+            <h2 class="display-4 text-center"><span
+                class="text-primary">Shopping</span> List</h2>
+
+            <div class="header">
+                <input type="text" id="input" placeholder="Item">
+                <span onclick="addItem()" id="addBtn">Add Item</span>
+            </div>
+            
+            <ul id="itemList"> </ul>
+        </div>
+
+        <script type="text/javascript" src="main.js"></script><!--Add in javascript in lower body to make sure that everything loads before js loads-->
+    </body>
+</html>
